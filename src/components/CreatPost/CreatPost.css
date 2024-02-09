@@ -1,0 +1,22 @@
+.title {
+  padding-bottom: 15px;
+}
+
+.limit__out {
+  height: 35px;
+  font-size: 12px;
+  padding: 5px;
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 9px;
+  border-radius: 4px;
+}
+
+.textaria {
+  width: 100%;
+  padding: 9px;
+  border-radius: 4px;
+}

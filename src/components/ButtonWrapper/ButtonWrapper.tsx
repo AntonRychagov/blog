@@ -2,14 +2,13 @@ import { Button } from "@mui/material";
 import "./ButtonWrapper.css";
 
 export type TButton = {
-  variant: string;
   onClick: () => void;
   disabled: boolean;
 };
 
 const ButtonWrapper = (props: TButton) => {
   return (
-    <Button className="button" {...props}>
+    <Button className="button" variant="contained" {...props}>
       {" "}
       Добавить Пост
     </Button>

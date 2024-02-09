@@ -127,10 +127,8 @@ const CreatePost = (props: TPropsPost) => {
       )}
 
       <ButtonWrapper
-        variant="contained"
         onClick={addNewPostHandle}
-        disabled={isDisabled}
-      />
+        disabled={isDisabled}      />
 
       <div>
         <Snackbar

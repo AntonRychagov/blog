@@ -1,9 +1,13 @@
-import './reset.css'
+import "./reset.css";
 import "./App.css";
 import PostContainer from "./components/PostContainer/PostContainer";
 
 function App() {
-  return <PostContainer />;
+  return (
+    <>
+      <PostContainer />
+    </>
+  );
 }
 
 export default App;

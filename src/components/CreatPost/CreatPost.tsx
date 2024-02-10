@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './CreatPost.css'
+import "./CreatPost.css";
 import { Snackbar, Alert, TextField, Typography } from "@mui/material";
 import ButtonWrapper from "../ButtonWrapper/ButtonWrapper";
 
@@ -127,8 +127,10 @@ const CreatePost = (props: TPropsPost) => {
       )}
 
       <ButtonWrapper
+        variant="contained"
         onClick={addNewPostHandle}
-        disabled={isDisabled}      />
+        disabled={isDisabled}
+      />
 
       <div>
         <Snackbar

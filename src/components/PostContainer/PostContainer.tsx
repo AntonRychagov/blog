@@ -16,7 +16,7 @@ export type TPostsList = {
 };
 
 const PostContainer = () => {
-  const [postsList, setPostsList] = useState<Array<TPostsList>>([]);
+  const [postsList, setPostsList] = useState<TPostsList[]>([]);
   const [isError, setIsError] = useState(false);
   const [postsLoading, setPostLoading] = useState(false);
 

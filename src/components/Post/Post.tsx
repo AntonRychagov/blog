@@ -7,7 +7,7 @@ import { parseDate } from "../../utils/parseDate";
 
 
 export type TPost = {
-  posts: Array<TPostsList>;
+  posts: TPostsList[];
   deletePostHandler: (id: number | string) => void;
 };
 
